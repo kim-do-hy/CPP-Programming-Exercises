@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{F82DD8A9-4AD4-4886-A8C7-79DDC5DCF290}</ProjectGuid>
+    <ProjectGuid>{BD5EA595-E886-4268-89A6-25AEEDF86C98}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -138,13 +138,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Canvas.h" />
-    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Human.h" />
     <ClInclude Include="MonsterWorld.h" />
-    <ClInclude Include="Point.h" />
+    <ClInclude Include="RankingBoard.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="source.c" />
+    <ClCompile Include="MonsterWorld7.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
